@@ -1,0 +1,16 @@
+%dw 2.0
+
+type auto_10453744_2138_4fb5_99df_d5dccc6db213_Input_Payload = {
+  date: String, 
+  city: String, 
+  theater: String, 
+  showtime: String, 
+  price: Number, 
+  totalprice: Number, 
+  offercode?: String, 
+  numberofseats: Number, 
+  customername: String, 
+  moviename: String, 
+  _?: Any
+}
+
